@@ -1,0 +1,39 @@
+title {
+    display: none;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+h1 {
+    background-color: black;
+    color: red;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#checkerboard {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box-black {
+    height: 80px;
+    width: 80px;
+    background-color: black;
+}
+
+.box-red {
+    height: 80px;
+    width: 80px;
+    background-color: red;
+}
